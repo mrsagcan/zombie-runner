@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -28,5 +29,11 @@ public class EnemyAI : MonoBehaviour
         {
             navMeshAgent.SetDestination(target.position);
         }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = new Color(1f, 0.5f, 0);
+        Gizmos.DrawWireSphere(transform.position, alertRange);
     }
 }
