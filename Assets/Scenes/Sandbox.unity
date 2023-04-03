@@ -481,22 +481,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5393215578589016640, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: a195ed8a8a4e48a4aa7f38e48358b30b, type: 2}
     - target: {fileID: 7260260623224975923, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: FPCamera
       value: 
       objectReference: {fileID: 963194227}
-    - target: {fileID: 8616685848737228371, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
-      propertyPath: MoveSpeed
-      value: 10
+    - target: {fileID: 7260260623224975923, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: weaponDamage
+      value: 30
       objectReference: {fileID: 0}
-    - target: {fileID: 8616685848737228372, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 8616685848737228372, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1180,10 +1172,6 @@ PrefabInstance:
     - target: {fileID: 7734415372491678904, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7734415372491678908, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
-      propertyPath: m_StoppingDistance
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
