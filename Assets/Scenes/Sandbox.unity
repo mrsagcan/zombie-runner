@@ -1125,18 +1125,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7734415371721793567, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.20299
-      objectReference: {fileID: 0}
-    - target: {fileID: 7734415371721793567, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7734415371721793567, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.70784
-      objectReference: {fileID: 0}
+    - target: {fileID: 6049184640014822732, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 8997996947870945667}
     - target: {fileID: 7734415372491678850, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -1148,18 +1140,6 @@ PrefabInstance:
     - target: {fileID: 7734415372491678904, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
       propertyPath: m_RootOrder
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7734415372491678904, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7734415372491678904, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7734415372491678904, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7734415372491678904, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1200,10 +1180,6 @@ PrefabInstance:
     - target: {fileID: 7734415372491678904, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7734415372491678908, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
-      propertyPath: m_StoppingDistance
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
