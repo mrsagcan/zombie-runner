@@ -697,16 +697,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595386561}
   m_CullTransparentMesh: 1
---- !u!1 &1730216956 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3106082032063061216, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-  m_PrefabInstance: {fileID: 6669720026066606041}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &1764108991 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 746656575845055480, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-  m_PrefabInstance: {fileID: 6669720026066606041}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1791422886
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,14 +1103,6 @@ PrefabInstance:
       propertyPath: FPCamera
       value: 
       objectReference: {fileID: 963194227}
-    - target: {fileID: 4057245823688050823, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-      propertyPath: hitEffect
-      value: 
-      objectReference: {fileID: 1766814854480755888, guid: 10182214731535b42912c71b49ff8db6, type: 3}
-    - target: {fileID: 4057245823688050823, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-      propertyPath: muzzleFlash
-      value: 
-      objectReference: {fileID: 1764108991}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
 --- !u!1001 &7734415371071858780
@@ -1133,7 +1115,7 @@ PrefabInstance:
     - target: {fileID: 6049184640014822732, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 8997996947870945667}
+      objectReference: {fileID: 8997996947870945673}
     - target: {fileID: 7734415372491678850, guid: 5e54b8907e6d51e48accb2231dbff6ff, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -1193,16 +1175,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2328595797624997466, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
   m_PrefabInstance: {fileID: 6669720026066606041}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8997996947870945673
+--- !u!114 &8997996947870945673 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 8997996947870945673, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
+  m_PrefabInstance: {fileID: 6669720026066606041}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730216956}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ba7384cdd0a6f64bbe97e07a1e2ccb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100

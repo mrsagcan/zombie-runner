@@ -8,7 +8,7 @@ public class EnemyAI : MonoBehaviour
 {
     [SerializeField] private Transform target;
     [SerializeField] private float alertRange = 5f;
-    
+    [SerializeField] private float turnSpeed = 5f;    
     
     private NavMeshAgent navMeshAgent;
     private float distanceToTarget;
@@ -42,6 +42,7 @@ public class EnemyAI : MonoBehaviour
 
     private void EngageTarget()
     {
+        FaceTarget();
         if (distanceToTarget >= navMeshAgent.stoppingDistance)
         {
             ChaseTarget();
@@ -63,6 +64,13 @@ public class EnemyAI : MonoBehaviour
     private void AttackTarget()
     {
         animator.SetBool("attack", true);
+    }
+
+    private void FaceTarget()
+    {
+        Vector3 direction = target.position - transform.position;
+        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * turnSpeed);
     }
     
     private void OnDrawGizmosSelected()
