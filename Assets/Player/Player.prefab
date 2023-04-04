@@ -361,6 +361,8 @@ MonoBehaviour:
   fpCamera: {fileID: 0}
   zoomedInFOV: 20
   zoomedOutFOV: 45
+  zoomedInSensitivity: 0.5
+  zoomedOutSensitivity: 1
 --- !u!1 &7344559634656683451
 GameObject:
   m_ObjectHideFlags: 0
