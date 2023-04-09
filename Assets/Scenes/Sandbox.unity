@@ -3126,10 +3126,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6070755578487390377, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
+      propertyPath: FPCamera
+      value: 
+      objectReference: {fileID: 963194227}
+    - target: {fileID: 6070755578487390377, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
+      propertyPath: weaponDamage
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6178174856971910221, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
       propertyPath: FPCamera
       value: 
       objectReference: {fileID: 963194227}
+    - target: {fileID: 6178174856971910221, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
+      propertyPath: weaponDamage
+      value: 54
+      objectReference: {fileID: 0}
     - target: {fileID: 7178469466045384560, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
       propertyPath: FPCamera
       value: 
@@ -3138,7 +3150,8 @@ PrefabInstance:
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 1945161619}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 861976723211020982, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
 --- !u!1001 &7734415371071858780
 PrefabInstance:
