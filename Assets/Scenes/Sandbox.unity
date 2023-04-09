@@ -3126,7 +3126,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 4057245823688050823, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
+    - target: {fileID: 6178174856971910221, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
+      propertyPath: FPCamera
+      value: 
+      objectReference: {fileID: 963194227}
+    - target: {fileID: 7178469466045384560, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
       propertyPath: FPCamera
       value: 
       objectReference: {fileID: 963194227}
