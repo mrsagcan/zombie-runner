@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
@@ -11,11 +12,18 @@ public class Weapon : MonoBehaviour
     [SerializeField] private ParticleSystem muzzleFlash;
     [SerializeField] private GameObject hitEffect;
     [SerializeField] private Ammo ammoSlot;
+    [SerializeField] private AmmoType ammoType;
     [SerializeField] private float timeBetweenShots = 0.5f;
 
     private bool canShoot = true;
     
     // Update is called once per frame
+
+    private void OnEnable()
+    {
+        canShoot = true;
+    }
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0) && canShoot)
@@ -27,11 +35,11 @@ public class Weapon : MonoBehaviour
     IEnumerator Shoot()
     {
         canShoot = false;
-        if (ammoSlot.GetAmmoAmount() > 0)
+        if (ammoSlot.GetAmmoAmount(ammoType) > 0)
         {
             PlayMuzzleFlash();
             HandleRaycast();
-            ammoSlot.ReduceCurrentAmmo();
+            ammoSlot.ReduceCurrentAmmo(ammoType);
         }
 
         yield return new WaitForSeconds(timeBetweenShots);

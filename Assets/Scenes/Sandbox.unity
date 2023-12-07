@@ -3074,10 +3074,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1437764099715289317, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2328595797624997466, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3126,80 +3122,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 3106082032063061223, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-      propertyPath: RotationSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5592773958972190540, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6070755578487390377, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-      propertyPath: range
-      value: 70
-      objectReference: {fileID: 0}
     - target: {fileID: 6070755578487390377, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
       propertyPath: FPCamera
       value: 
       objectReference: {fileID: 963194227}
-    - target: {fileID: 6070755578487390377, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-      propertyPath: weaponDamage
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 6178174856971910221, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-      propertyPath: range
-      value: 30
-      objectReference: {fileID: 0}
     - target: {fileID: 6178174856971910221, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
       propertyPath: FPCamera
       value: 
       objectReference: {fileID: 963194227}
     - target: {fileID: 6178174856971910221, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-      propertyPath: weaponDamage
-      value: 54
-      objectReference: {fileID: 0}
-    - target: {fileID: 6178174856971910221, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-      propertyPath: timeBetweenShots
-      value: 2.5
-      objectReference: {fileID: 0}
+      propertyPath: muzzleFlash
+      value: 
+      objectReference: {fileID: 3614249443508621660, guid: 4a60d8477aafac045a1f56d3a60c7813, type: 3}
     - target: {fileID: 7178469466045384560, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
       propertyPath: FPCamera
       value: 
       objectReference: {fileID: 963194227}
-    - target: {fileID: 7178469466045384560, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-      propertyPath: weaponDamage
-      value: 110
-      objectReference: {fileID: 0}
-    - target: {fileID: 7178469466045384560, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-      propertyPath: timeBetweenShots
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 7927585700288978898, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
       propertyPath: fpCamera
       value: 
       objectReference: {fileID: 274745001}
-    - target: {fileID: 7927585700288978898, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-      propertyPath: fpController
-      value: 
-      objectReference: {fileID: 8997996947870945680}
-    - target: {fileID: 7927585700288978898, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-      propertyPath: zoomedInSensitivity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7927585700288978898, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-      propertyPath: zoomedOutSensitivity
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8917062348477781105, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8997996947870945674, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 1945161619}
-    m_RemovedComponents:
-    - {fileID: 861976723211020982, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
 --- !u!1001 &7734415371071858780
 PrefabInstance:
@@ -3280,16 +3227,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ba7384cdd0a6f64bbe97e07a1e2ccb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &8997996947870945680 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3106082032063061223, guid: d94674fc36a49404987cad34c4d658ad, type: 3}
-  m_PrefabInstance: {fileID: 6669720026066606041}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55919ac34a26952479f3fc91f777b2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

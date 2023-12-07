@@ -355,10 +355,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FPCamera: {fileID: 0}
   range: 100
-  weaponDamage: 30
-  muzzleFlash: {fileID: 5876520581938459663}
+  weaponDamage: 110
+  muzzleFlash: {fileID: 3614249443508621660, guid: 4a60d8477aafac045a1f56d3a60c7813, type: 3}
   hitEffect: {fileID: 1766814854480755888, guid: 10182214731535b42912c71b49ff8db6, type: 3}
   ammoSlot: {fileID: 0}
+  ammoType: 2
+  timeBetweenShots: 0.05
 --- !u!114 &-5344293538371579867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -376,6 +378,7 @@ MonoBehaviour:
   zoomedOutFOV: 45
   zoomedInSensitivity: 1
   zoomedOutSensitivity: 3
+  fpController: {fileID: 0}
 --- !u!1 &2337074158997199752
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,10 +724,5 @@ PrefabInstance:
 --- !u!4 &5609293675016049472 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3350055855090824723, guid: 4a60d8477aafac045a1f56d3a60c7813, type: 3}
-  m_PrefabInstance: {fileID: 7180423279109907795}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &5876520581938459663 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 3614249443508621660, guid: 4a60d8477aafac045a1f56d3a60c7813, type: 3}
   m_PrefabInstance: {fileID: 7180423279109907795}
   m_PrefabAsset: {fileID: 0}

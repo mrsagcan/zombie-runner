@@ -171,7 +171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: 10
   SprintSpeed: 6
-  RotationSpeed: 1
+  RotationSpeed: 3
   SpeedChangeRate: 10
   JumpHeight: 1.2
   Gravity: -15
@@ -358,7 +358,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a514f2a867655249ac27ac82297be34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammoAmount: 10
+  ammoSlots:
+  - ammoType: 0
+    ammoAmount: 24
+  - ammoType: 1
+    ammoAmount: 10
+  - ammoType: 2
+    ammoAmount: 30
 --- !u!1 &7344559634656683451
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,6 +452,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7056353896255223697}
     m_Modifications:
+    - target: {fileID: -5344293538371579867, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
+      propertyPath: fpController
+      value: 
+      objectReference: {fileID: 3106082032063061223}
     - target: {fileID: 2337074158996965286, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
       propertyPath: m_RootOrder
       value: 2
