@@ -7,6 +7,12 @@ public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] private float hitPoints = 100f;
 
+    private bool isDead = false;
+
+    public bool IsDead()
+    {
+        return isDead;
+    }
 
     public void TakeDamage(float damage)
     {
@@ -20,7 +26,13 @@ public class EnemyHealth : MonoBehaviour
 
     private void Die()
     {
-        Destroy(gameObject);
+        if (isDead)
+        {
+            return;
+        }
+        isDead = true;
+        
+        // Destroy(gameObject);
     }
 }
 
