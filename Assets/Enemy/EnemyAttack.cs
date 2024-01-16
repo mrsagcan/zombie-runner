@@ -11,15 +11,11 @@ public class EnemyAttack : MonoBehaviour
     {
         target = FindObjectOfType<PlayerHealth>();
     }
-
-    public void OnDamageTaken()
-    {
-        Debug.Log(name + "I know that you're attacking me too.");
-    }
     
     public void AttackHitEvent()
     {
         if(target == null) return;
         target.TakeDamage(damage);
+        target.GetComponent<DisplayDamage>().ShowDamageImpact();
     }
 }
