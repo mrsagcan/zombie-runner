@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ba7384cdd0a6f64bbe97e07a1e2ccb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 500
 --- !u!114 &8997996947870945674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,9 +264,9 @@ MonoBehaviour:
   - ammoType: 0
     ammoAmount: 24
   - ammoType: 1
-    ammoAmount: 10
+    ammoAmount: 20
   - ammoType: 2
-    ammoAmount: 30
+    ammoAmount: 10
 --- !u!114 &1468237694311708793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -369,6 +369,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7344559634656683452}
     m_Modifications:
+    - target: {fileID: -2344952500263648771, guid: d79d744c2dbb6d74bbb160660ec14d80, type: 3}
+      propertyPath: angleDecay
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2344952500263648771, guid: d79d744c2dbb6d74bbb160660ec14d80, type: 3}
+      propertyPath: lightDecay
+      value: 0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 2245409513015245107, guid: d79d744c2dbb6d74bbb160660ec14d80, type: 3}
       propertyPath: m_Range
       value: 20
@@ -499,6 +507,10 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 4643434204308403455}
+    - target: {fileID: 4057245823688050823, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
+      propertyPath: weaponDamage
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
 --- !u!4 &8917062348477352017 stripped
@@ -517,6 +529,10 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 4643434204308403455}
+    - target: {fileID: 4521034053830308068, guid: e56ff5e64b4412d40bb1b62d3531cc6c, type: 3}
+      propertyPath: weaponDamage
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 8231030856197552658, guid: e56ff5e64b4412d40bb1b62d3531cc6c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -643,6 +659,10 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 4643434204308403455}
+    - target: {fileID: 4057245823688050823, guid: 6fe8170253bc71a419a8666c83fe5ed3, type: 3}
+      propertyPath: weaponDamage
+      value: 170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fe8170253bc71a419a8666c83fe5ed3, type: 3}
 --- !u!4 &5592773958971700076 stripped

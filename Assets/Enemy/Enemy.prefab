@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  alertRange: 8
+  alertRange: 20
   turnSpeed: 5
 --- !u!114 &184712470922047822
 MonoBehaviour:
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b22446ffce57eed4da1fc5b97e15b42f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 100
+  hitPoints: 200
 --- !u!114 &6049184640014822732
 MonoBehaviour:
   m_ObjectHideFlags: 0
